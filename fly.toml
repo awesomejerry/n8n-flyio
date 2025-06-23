@@ -15,6 +15,9 @@ primary_region = 'sin'
   N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS = true
   N8N_RUNNERS_ENABLED = true
   WEBHOOK_URL = 'https://n8n-flyio-awesomejerry.fly.dev'
+  GENERIC_TIMEZONE = 'Asia/Taipei'
+  TZ = 'Asia/Taipei'
+  N8N_CUSTOM_EXTENSIONS = '/home/node/.n8n/custom-extensions/node_modules'
 
 [http_service]
   internal_port = 5678
